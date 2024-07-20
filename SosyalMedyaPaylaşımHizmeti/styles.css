@@ -1,0 +1,92 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2; 
+    color: #333; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+h1 {
+    margin: 10px 0 5px; 
+    font-size: 1.5rem; 
+}
+
+h6 {
+    margin: 0; 
+    font-size: 1rem; 
+    font-weight: normal;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h3 {
+    text-align: center; 
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; 
+}
+
+.link-item {
+    text-decoration: none;
+    color: #333; 
+    background-color: #fff; 
+    padding: 30px 10px; 
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px; 
+}
+
+.link-item:hover {
+    background-color: #fff; 
+    transform: scale(1.1); 
+}
+
+.link-item img {
+    max-width: 43px;  
+    max-height: 43px;
+}
+
+.link-item i {
+    margin-right: 10px;  
+    font-size: 30px;  
+}
+
+.button-text {
+    margin-left: 10px;  
+    flex: 1; 
+    text-align: center; 
+}
